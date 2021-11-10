@@ -26,15 +26,15 @@ export const HomepageProfile: React.FunctionComponent<any> = () => {
             </div>
             <hr className="homepage-profile-hr"/>
             <div className="homepage-profile-social_icons">
-                <div className="homepage-profile-social_icons-icon">
+                <a href="https://twitter.com/OnosumeKatsudou" target="_blank" className="homepage-profile-social_icons-icon">
                     <img src="/icons/twitter/Twitter_Social_Icon_Square_Color.png" alt="Twitter Icon" />
-                </div>
-                <div className="homepage-profile-social_icons-icon">
+                </a>
+                <a href="https://github.com/Onosume" target="_blank" className="homepage-profile-social_icons-icon">
                     <img src="icons/github/GitHub-Mark-Light-120px-plus.png" alt="GitHub Icon" />
-                </div>
-                <div className="homepage-profile-social_icons-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/matthewtinn/" target="_blank" className="homepage-profile-social_icons-icon">
                     <img src="icons/linkedin/LI-In-Bug.png" alt="LinkedIn Icon" />
-                </div>
+                </a>
             </div>
         </div>
     )
