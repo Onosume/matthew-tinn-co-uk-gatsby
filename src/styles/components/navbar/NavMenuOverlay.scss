@@ -1,0 +1,12 @@
+@import "../../theme-variables.scss";
+
+.navMenuOverlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: $navbar-height;
+    left: 0;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.25;
+}

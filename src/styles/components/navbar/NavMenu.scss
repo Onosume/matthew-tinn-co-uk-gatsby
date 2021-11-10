@@ -1,0 +1,62 @@
+@import "../../theme-variables.scss";
+
+$navMenuWidthMobile: 232px;
+$navMenuWidthDesktop: 525px;
+
+$navMenuLinksPaddingLeft: 10px;
+$navMenuLinksPaddingRight: 10px;
+$navMenuLinksPaddingTop: 10px;
+$navMenuLinksPaddingBottom: 10px;
+
+$navMenuLinksLinkContainerPaddingTop: 5px;
+$navMenuLinksLinkContainerPaddingBottom: 25px;
+
+.navmenu {
+    position: fixed;
+    top: $navbar-height;
+    z-index: 3;
+    height: 100%;
+    width: $navMenuWidthMobile;
+    background-color: #3a3939;
+    transition: all 0.3s ease-out;
+}
+
+.navmenu-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    padding-left: $navMenuLinksPaddingLeft;
+    padding-right: $navMenuLinksPaddingRight;
+    padding-top: $navMenuLinksPaddingTop;
+    padding-bottom: $navMenuLinksPaddingBottom;
+}
+
+.navmenu-links-link_container {
+    width: 100%;
+    padding-top: $navMenuLinksLinkContainerPaddingTop;
+    padding-bottom: $navMenuLinksLinkContainerPaddingBottom;
+
+    a {
+        width: 100%;
+        color: $colour-white;
+        text-decoration: none;
+        cursor: pointer;
+        padding-bottom: 1rem;;
+    }
+
+    a:hover {
+        color: $colour-orange;
+    }
+}
+
+.navmenu-links-link {
+    width: 100%;
+    font-size: 24px;
+}
+
+@media screen and (min-width: 1080px) {
+    .navmenu {
+        width: $navMenuWidthDesktop;
+    }
+}

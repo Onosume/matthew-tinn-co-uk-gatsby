@@ -1,0 +1,54 @@
+@import "../../theme-variables.scss";
+
+.homepage-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $colour-white;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.homepage-profile-photo-img {
+    width: 150px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 8px #4c434e29;
+}
+
+.homepage-profile-name {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.homepage-profile-hr {
+    background-color: $colour-white;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.homepage-profile-cta_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.homepage-profile-social_icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.homepage-profile-social_icons-icon {
+    width: 50px;
+}
+
+.homepage-profile-social_icons-icon-image {
+    width: 100%;
+}
