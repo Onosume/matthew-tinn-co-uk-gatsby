@@ -36,7 +36,7 @@ export const Navbar: React.FunctionComponent<any> = () => {
                 
                 <Link to="/">
                     <img src="/images/onosume.jpg" alt="Onosume Logo" />
-                    <span>{data.site.siteMetadata?.title || `Title`}</span>
+                    <span>MJT</span>
                 </Link>
             </div>
             <NavMenu

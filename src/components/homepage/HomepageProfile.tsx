@@ -1,5 +1,5 @@
 import React from "react";
-import { navigate } from "gatsby";
+import { navigate, Link } from "gatsby";
 import "../../styles/components/homepage/HomepageProfile.scss";
 
 export const HomepageProfile: React.FunctionComponent<any> = () => {
@@ -11,7 +11,7 @@ export const HomepageProfile: React.FunctionComponent<any> = () => {
                 </div>
             </div>
             <h1 className="homepage-profile-name">
-                Matthew Tinn
+                Matthew Jennifer Tinn
             </h1>
             <hr className="homepage-profile-hr" />
             <div className="homepage=profile-description">
@@ -20,9 +20,13 @@ export const HomepageProfile: React.FunctionComponent<any> = () => {
             </div>
             <hr className="homepage-profile-hr"/>
             <div className="homepage-profile-cta_container">
-                <button>
-                    Find Out More
-                </button>
+                <Link
+                    to="/profile"
+                >
+                    <button className="homepage-profile-cta_button ">
+                        Find Out More
+                    </button>
+                </Link>
             </div>
             <hr className="homepage-profile-hr"/>
             <div className="homepage-profile-social_icons">

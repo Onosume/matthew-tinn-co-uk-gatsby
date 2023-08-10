@@ -12,18 +12,33 @@ export const NavMenu: React.FunctionComponent<any> = (props) => {
     };
     
     return (
-        <div className="navmenu" style={props.navMenuVisible == true ? navMenuVisibleStyle : navMenuHiddenStyle}>
+        <div
+            className="navmenu"
+            style={
+                props.navMenuVisible == true
+                    ? navMenuVisibleStyle
+                    : navMenuHiddenStyle
+            }
+        >
             <div className="navmenu-links">
                 <div className="navmenu-links-link_container">
                     <Link to="/">
-                        <div className="navmenu-links-link">
-                            Home
-                        </div>
+                        <div className="navmenu-links-link">Home</div>
                     </Link>
-
                 </div>
                 <div className="navmenu-links-link_container">
-                    <a className="navmenu-links-link" href="https://me.matthewtinn.co.uk" target="_blank">Social Microsite</a>
+                    <Link to="/profile">
+                        <div className="navmenu-links-link">Profile</div>
+                    </Link>
+                </div>
+                <div className="navmenu-links-link_container">
+                    <a
+                        className="navmenu-links-link"
+                        href="https://me.matthewtinn.co.uk"
+                        target="_blank"
+                    >
+                        Social Microsite
+                    </a>
                 </div>
             </div>
         </div>
