@@ -11,7 +11,7 @@ export const HomepageProfile: React.FunctionComponent<any> = () => {
                 </div>
             </div>
             <h1 className="homepage-profile-name">
-                Matthew Tinn
+                Matthew Jennifer Tinn
             </h1>
             <hr className="homepage-profile-hr" />
             <div className="homepage=profile-description">
