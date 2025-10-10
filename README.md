@@ -7,8 +7,8 @@ This is the code for my personal portfolio site. It's a statically generated sit
 
 ## Running Locally
 
-* Install dependancies using `npm install`
-* `npm run start`
+* Install dependancies using `npm install --legacy-peer-deps` (this will force use of legacy peer dependencies required by Gatsby)
+* Use `npm run develop` to start the local development server.
 
 ## Build & Deploy
 
